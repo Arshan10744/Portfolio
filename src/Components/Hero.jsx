@@ -28,6 +28,7 @@ const Hero = () => {
         <Image src={HeroImage} alt="My Ig" h='100%' w='100%'/>
       </Box>
     </Flex>
+    {/* glrc */}
     </>
   )
 }
