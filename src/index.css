@@ -1,0 +1,39 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: poppins;
+  color: #FFF;
+}
+.paddinglr{
+  padding: 0px 150px;
+}
+.nav-items a{
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.myColor{
+  color: #FFF;
+}
+.hero-section-btn{
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #FFF;
+  color: #0A183D;
+  margin-top: 40px;
+}
+.input{
+  width: 100%;
+  height: 69px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  color: #6B6B6B;
+}
