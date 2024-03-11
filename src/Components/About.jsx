@@ -4,7 +4,7 @@ import vector from '../Images/vectorIG.svg'
 
 const About = () => {
   return (
-    <Flex w='100%' h='500px' alignItems='center' className='paddinglr' gap='118px' id='about'  bgColor='rgba(255,255,255,0.9)'>
+    <Flex w='100%' h='500px' alignItems='center' className='paddinglr' gap='118px' id='about'  bgColor='rgba(0,0,0,0.9)'>
       <Box w='45%'>
         <Image src={vector} alt="image" w='100%' h='248px' />
       </Box>
