@@ -4,7 +4,7 @@ import { Box, Flex, FormControl, Heading, Input, VStack, Image } from '@chakra-u
 
 const Footer = () => {
   return (
-    <VStack w='100%' h='600px' bgColor='#000' className='paddinglr' justifyContent='center' id='contact'>
+    <VStack w='100%' h='600px'  className='paddinglr' justifyContent='center' id='contact'>
       <Heading mb='60px' fontSize='48px' fontWeight={700}>Contact Us</Heading>
       <Flex w='100%' justifyContent='space-between' alignItems='center'>
       <Box w='45%'>

@@ -3,36 +3,32 @@ import React from 'react'
 
 const exp = [
     {
-        text : `Associate Software Engineer | Frontend`, 
+        text : `Associate Software Engineer`, 
         Comapnay: `Geeky Bugs`,
-        Date : `Feb, 2024 - Present`
+        Date : `January, 2024 - Present`
     },
     {
-        text : `Trainee Software Engineer`, 
-        Comapnay: `Freelancer, US Upwork`,
+        text : `Frontend Developer`, 
+        Comapnay: `Beyond Logics INC.`,
         Date : `June, 2023 - Dec 2023`    },
-    {
-        text : `Software Engineer Intern | Frontend`, 
-        Comapnay: `Cedar Financial`,
-        Date : `Jan 2023 - Feb 2023`    },
-
+    
     
 ]
 const Experience = () => {
   return (
-    <Flex bgColor='#000' h='552px' w='100%' flexDirection='column' className='paddinglr' id='experience'>
-      <Heading fontSize='48px' fontWeight='700px' mt='38px' mb='81px' textAlign='center'> Experience </Heading>
+    <Flex  h='552px' w='100%' flexDirection='column' className='paddinglr' id='experience'>
+      <Heading fontSize='48px' fontWeight={700} mt='38px' mb='81px' textAlign='center'> Experience </Heading>
       <UnorderedList>
-      <Flex flexWrap='wrap' justifyContent='space-between' gap='38px' flexDirection='column'>
+      <Flex flexWrap='wrap' justifyContent='space-evenly'  flexDirection='row'>
 
         {exp.map((value)=>{
 
             return(
                 <ListItem>
                     <Box display='inline'>
-                    <Text fontWeight={600}>{value.text}</Text>
-                    <Text fontWeight={200}>{value.Comapnay}</Text>
-                    <Text fontWeight={200}>{value.Date}</Text>
+                    <Text fontSize="40px" fontWeight={600}>{value.text}</Text>
+                    <Text fontSize="40px" fontWeight={200}>{value.Comapnay}</Text>
+                    <Text fontSize="40px" fontWeight={200}>{value.Date}</Text>
                     </Box>
                 </ListItem>
             )
